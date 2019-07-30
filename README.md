@@ -21,7 +21,7 @@ This repository provides a NetworkX implementation of EdMot as described in the 
 > KDD, 2019.
 > [[Paper]](https://arxiv.org/abs/1906.04560)
 
-A Matlab implementation of EdMot is available [[here]](https://github.com/samihaija/mixhop).
+A Matlab implementation of EdMot is available [[here]](https://github.com/lipzh5/EdMot_pro).
 
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
