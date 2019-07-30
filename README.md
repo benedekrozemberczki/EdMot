@@ -33,13 +33,10 @@ pandas            0.23.4
 texttable         1.5.0
 scipy             1.1.0
 argparse          1.1.0
-torch             0.4.1
-torch-sparse      0.2.2
 ```
 ### Datasets
 
 The code takes the **edge list** of the graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. A sample graph for `Cora` is included in the  `input/` directory.
-
 
 ### Options
 Training an N-GCN/MixHop model is handled by the `src/main.py` script which provides the following command line arguments.
