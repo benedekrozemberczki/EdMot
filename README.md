@@ -21,12 +21,7 @@ This repository provides a PyTorch implementation of EdMot as described in the p
 > KDD, 2019.
 > [[Paper]](https://arxiv.org/pdf/1905.00067.pdf)
 
-> A Higher-Order Graph Convolutional Layer.
-> Sami A Abu-El-Haija, Bryan Perozzi, Amol Kapoor, Nazanin Alipourfard, Hrayr Harutyunyan.
-> NeurIPS, 2018.
-> [[Paper]](http://sami.haija.org/papers/high-order-gc-layer.pdf)
-
-The original TensorFlow implementation of MixHop is available [[here]](https://github.com/samihaija/mixhop).
+A Matlab implementation of EdMot is available [[here]](https://github.com/samihaija/mixhop).
 
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
