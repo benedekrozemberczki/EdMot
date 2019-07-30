@@ -46,24 +46,13 @@ Training an N-GCN/MixHop model is handled by the `src/main.py` script which prov
 
 #### Input and output options
 ```
-  --edge-path       STR    Edge list csv.         Default is `input/cora_edges.csv`.
-  --features-path   STR    Features json.         Default is `input/cora_features.json`.
+  --edge-path       STR      Edge list csv.         Default is `input/cora_edges.csv`.
+  --membership-path   STR    Features json.         Default is `input/cora_features.json`.
 ```
 #### Model options
-```
-  --model             STR     Model variant.                 Default is `mixhop`.               
+```             
   --seed              INT     Random seed.                   Default is 42.
   --epochs            INT     Number of training epochs.     Default is 2000.
-  --early-stopping    INT     Early stopping rounds.         Default is 10.
-  --training-size     INT     Training set size.             Default is 1500.
-  --validation-size   INT     Validation set size.           Default is 500.
-  --learning-rate     FLOAT   Adam learning rate.            Default is 0.01.
-  --dropout           FLOAT   Dropout rate value.            Default is 0.5.
-  --lambd             FLOAT   Regularization coefficient.    Default is 0.0005.
-  --layers-1          LST     Layer sizes (upstream).        Default is [200, 200, 200]. 
-  --layers-2          LST     Layer sizes (bottom).          Default is [200, 200, 200].
-  --cut-off           FLOAT   Norm cut-off for pruning.      Default is 0.1.
-  --budget            INT     Architecture neuron budget.    Default is 60.
 ```
 ### Examples
 The following commands learn a neural network and score on the test set. Training a model on the default dataset.
@@ -77,16 +66,4 @@ python src/main.py
 Training a MixHop model for a 100 epochs.
 ```
 python src/main.py --epochs 100
-```
-Increasing the learning rate and the dropout.
-```
-python src/main.py --learning-rate 0.1 --dropout 0.9
-```
-Training a model with diffusion order 2:
-```
-python src/main.py --layers 64 64
-```
-Training an N-GCN model:
-```
-python src/main.py --model ngcn
 ```
