@@ -16,10 +16,10 @@ Network community detection is a hot research topic in network analysis. Althoug
 
 This repository provides a NetworkX implementation of EdMot as described in the papers:
 
-> MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing
+> EdMot: An Edge Enhancement Approach for Motif-aware Community Detection
 > Pei-Zhen Li, Ling Huang, Chang-Dong Wang, and  Jian-Huang Lai .
 > KDD, 2019.
-> [[Paper]](https://arxiv.org/pdf/1905.00067.pdf)
+> [[Paper]](https://arxiv.org/abs/1906.04560)
 
 A Matlab implementation of EdMot is available [[here]](https://github.com/samihaija/mixhop).
 
