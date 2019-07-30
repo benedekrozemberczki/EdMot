@@ -4,7 +4,7 @@ EdMot
 ![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/EdMot.svg?color=blue&style=plastic)
 ![License](https://img.shields.io/github/license/benedekrozemberczki/EdMot.svg?color=blue&style=plastic)
 ============================================
-A PyTorch implementation of "MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing" (ICML 2019) and "A Higher-Order Graph Convolutional Layer" (NeurIPS 2018).
+A NetworkX implementation of "EdMot: An Edge Enhancement Approach for Motif-aware Community Detection" (KDD 2019).
 <p align="center">
   <img width="800" src="mixhop1.jpg">
 </p>
