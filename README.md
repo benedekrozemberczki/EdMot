@@ -6,7 +6,7 @@ EdMot
 ============================================
 A NetworkX implementation of "EdMot: An Edge Enhancement Approach for Motif-aware Community Detection" (KDD 2019).
 <p align="center">
-  <img width="800" src="mixhop1.jpg">
+  <img width="800" src="edmot.jpg">
 </p>
 
 ### Abstract
