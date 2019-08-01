@@ -26,6 +26,6 @@ def parameter_parser():
     parser.add_argument("--cutoff",
                         type = int,
                         default = 2,
-	                help = "Minimal overlap cutoff. Default is 200.")
+	                help = "Minimal overlap cutoff. Default is 2.")
 
     return parser.parse_args()
