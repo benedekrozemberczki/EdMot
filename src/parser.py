@@ -16,7 +16,7 @@ def parameter_parser():
     parser.add_argument("--membership-path",
                         nargs = "?",
                         default = "./output/cora_membership.json",
-	                help = "Features json.")
+	                help = "Cluster memberhip json.")
 
     parser.add_argument("--components",
                         type = int,
