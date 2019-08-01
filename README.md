@@ -43,13 +43,13 @@ Training an N-GCN/MixHop model is handled by the `src/main.py` script which prov
 
 #### Input and output options
 ```
-  --edge-path       STR      Edge list csv.         Default is `input/cora_edges.csv`.
-  --membership-path   STR    Features json.         Default is `input/cora_features.json`.
+  --edge-path         STR    Edge list csv.       Default is `input/cora_edges.csv`.
+  --membership-path   STR    Features json.       Default is `input/cora_features.json`.
 ```
 #### Model options
 ```             
-  --seed              INT     Random seed.                   Default is 42.
-  --epochs            INT     Number of training epochs.     Default is 2000.
+  --seed         INT     Random seed.                   Default is 42.
+  --components   INT     Number of motif components.    Default is 1.
 ```
 ### Examples
 The following commands learn a neural network and score on the test set. Training a model on the default dataset.
