@@ -58,7 +58,7 @@ class EdMot(object):
 
     def fit(self):
         """
-        
+        Clustering the target graph.
         """
         self._calculate_motifs()
         self._extract_components()
