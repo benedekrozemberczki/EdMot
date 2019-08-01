@@ -31,7 +31,6 @@ tqdm              4.28.1
 numpy             1.15.4
 pandas            0.23.4
 texttable         1.5.0
-scipy             1.1.0
 argparse          1.1.0
 ```
 ### Datasets
