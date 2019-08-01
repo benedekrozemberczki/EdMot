@@ -48,11 +48,11 @@ Training an N-GCN/MixHop model is handled by the `src/main.py` script which prov
 ```
 #### Model options
 ```             
-  --seed         INT     Random seed.                   Default is 42.
+  --cutoff       INT     Random seed.                   Default is 2.
   --components   INT     Number of motif components.    Default is 1.
 ```
 ### Examples
-The following commands learn a neural network and score on the test set. Training a model on the default dataset.
+The following commands learn an EdMot Clustering.
 ```
 python src/main.py
 ```
@@ -60,7 +60,7 @@ python src/main.py
 <img style="float: center;" src="mixhop.gif">
 </p>
 
-Training a MixHop model for a 1 epochs.
+Increasing the motif component number.
 ```
-python src/main.py --components 1
+python src/main.py --components 2
 ```
