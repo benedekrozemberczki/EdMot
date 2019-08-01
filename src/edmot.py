@@ -44,4 +44,3 @@ class EdMot(object):
         self._fill_blocks()
         partition = community.best_partition(self.graph)
         return partition
-        
