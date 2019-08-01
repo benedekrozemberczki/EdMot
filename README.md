@@ -39,7 +39,7 @@ argparse          1.1.0
 The code takes the **edge list** of the graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. A sample graph for `Cora` is included in the  `input/` directory.
 
 ### Options
-Training an N-GCN/MixHop model is handled by the `src/main.py` script which provides the following command line arguments.
+Training a model is handled by the `src/main.py` script which provides the following command line arguments.
 
 #### Input and output options
 ```
