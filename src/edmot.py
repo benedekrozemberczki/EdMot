@@ -6,7 +6,7 @@ class EdMot(object):
     """
     Edge Motif Clustering Class.
     """
-    def __init__(self, graph, component_count,cutoff):
+    def __init__(self, graph, component_count, cutoff):
         """
         :param graph: NetworkX object.
         :param component_count: Number of extract motif hypergraph components.
