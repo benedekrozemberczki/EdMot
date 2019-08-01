@@ -8,6 +8,9 @@ class EdMot(object):
     """
     def __init__(self, graph, component_count,cutoff):
         """
+        :param graph: NetworkX object.
+        :param component_count: Number of extract motif hypergraph components.
+        :param cutoff: Motif edge cut-off value.
         """
         self.graph = graph
         self.component_count = component_count
