@@ -56,7 +56,7 @@ The following commands learn an EdMot Clustering.
 python src/main.py
 ```
 <p align="center">
-<img style="float: center;" src="mixhop.gif">
+<img style="float: center;" src="edmot.gif">
 </p>
 
 Increasing the motif component number.
