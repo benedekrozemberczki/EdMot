@@ -3,8 +3,12 @@ import networkx as nx
 from tqdm import tqdm
 
 class EdMot(object):
-
+    """
+    Edge Motif Clustering Class.
+    """
     def __init__(self, graph, component_count,cutoff):
+        """
+        """
         self.graph = graph
         self.component_count = component_count
         self.cutoff = cutoff
