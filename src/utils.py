@@ -25,5 +25,10 @@ def graph_reader(path):
     return graph
 
 def membership_saver(membership_path, membership):
+    """
+    Saving the membership dictionary as a JSON. 
+    :param membership_path: Path to save the JSON.
+    :param membership: Membership dictionary with cluster ids.
+    """
     with open(membership_path,"w") as f:
         json.dump(membership,f)
