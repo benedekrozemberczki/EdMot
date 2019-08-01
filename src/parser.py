@@ -21,7 +21,7 @@ def parameter_parser():
     parser.add_argument("--components",
                         type = int,
                         default = 1,
-	                help = "Number of training epochs. Default is 1.")
+	                help = "Number of components. Default is 1.")
 
     parser.add_argument("--cutoff",
                         type = int,
