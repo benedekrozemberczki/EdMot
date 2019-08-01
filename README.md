@@ -44,7 +44,7 @@ Training an N-GCN/MixHop model is handled by the `src/main.py` script which prov
 #### Input and output options
 ```
   --edge-path         STR    Edge list csv.       Default is `input/cora_edges.csv`.
-  --membership-path   STR    Features json.       Default is `input/cora_features.json`.
+  --membership-path   STR    Features json.       Default is `output/cora_membership.json`.
 ```
 #### Model options
 ```             
@@ -60,7 +60,7 @@ python src/main.py
 <img style="float: center;" src="mixhop.gif">
 </p>
 
-Training a MixHop model for a 100 epochs.
+Training a MixHop model for a 1 epochs.
 ```
-python src/main.py --epochs 100
+python src/main.py --components 1
 ```
