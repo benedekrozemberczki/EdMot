@@ -1,5 +1,5 @@
 EdMot
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixhop-higher-order-graph-convolution/node-classification-on-citeseer)](https://paperswithcode.com/sota/node-classification-on-citeseer?p=mixhop-higher-order-graph-convolution)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/edmot-an-edge-enhancement-approach-for-motif/community-detection-on-cora)](https://paperswithcode.com/sota/community-detection-on-cora?p=edmot-an-edge-enhancement-approach-for-motif)
 ![GitHub stars](https://img.shields.io/github/stars/benedekrozemberczki/EdMot.svg?style=plastic)
 ![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/EdMot.svg?color=blue&style=plastic)
 ![License](https://img.shields.io/github/license/benedekrozemberczki/EdMot.svg?color=blue&style=plastic)
