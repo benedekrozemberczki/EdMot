@@ -17,6 +17,12 @@ class EdMot(object):
         self.cutoff = cutoff
     
     def _overlap(self, node_1, node_2):
+        """
+        Calculating the neighbourhood overlap for a pair of nodes.
+        :param node_1: Source node 1.
+        :param node_2: Source node 2.
+        :return neighbourhood overlap: Overlap score.
+        """
         nodes_1 = self.graph.neighbors(node_1)
         nodes_2 = self.graph.neighbors(node_2)
         return len(set(nodes_1).intersection(set(nodes_2)))
