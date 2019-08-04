@@ -46,7 +46,6 @@ class EdMot(object):
         important_components = [components[component][1] for component  in range(self.component_count)]
         self.blocks = [[node for node in graph.nodes()] for graph in important_components]
         
-
     def _fill_blocks(self):
         """
         Filling the dense blocks of the adjacency matrix.
