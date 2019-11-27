@@ -1,3 +1,5 @@
+"""Utils for reading and writing."""
+
 import json
 import pandas as pd
 import networkx as nx
@@ -10,8 +12,9 @@ def tab_printer(args):
     """
     args = vars(args)
     keys = sorted(args.keys())
-    t = Texttable() 
-    t.add_rows([["Parameter", "Value"]] +  [[k.replace("_"," ").capitalize(),args[k]] for k in keys])
+    t = Texttable()
+    t.add_rows([["Parameter", "Value"]])
+    t.add_rows([[k.replace("_", " ").capitalize(), args[k]] for k in keys])
     print(t.draw())
 
 def graph_reader(path):
@@ -26,9 +29,9 @@ def graph_reader(path):
 
 def membership_saver(membership_path, membership):
     """
-    Saving the membership dictionary as a JSON. 
+    Saving the membership dictionary as a JSON.
     :param membership_path: Path to save the JSON.
     :param membership: Membership dictionary with cluster ids.
     """
-    with open(membership_path,"w") as f:
-        json.dump(membership,f)
+    with open(membership_path, "w") as f:
+        json.dump(membership, f)
