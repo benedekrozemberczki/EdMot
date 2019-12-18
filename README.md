@@ -25,7 +25,7 @@ A Matlab implementation of EdMot is available [[here]](https://github.com/lipzh5
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
 ```
-networkx          1.11
+networkx          2.4
 tqdm              4.28.1
 pandas            0.23.4
 texttable         1.5.0
