@@ -42,11 +42,11 @@ class EdMot(object):
         Extracting connected components from motif graph.
         """
         print("\nExtracting components.\n")
-        components = list(nx.connected_component_subgraphs(self.motif_graph))
+        components = [c for c in nx.connected_components(self.motif_graph)]
         components = [[len(c), c] for c in components]
         components.sort(key=lambda x: x[0], reverse=True)
         important_components = [components[comp][1] for comp in range(self.component_count)]
-        self.blocks = [[node for node in graph.nodes()] for graph in important_components]
+        self.blocks = [list(graph) for graph in important_components]
 
     def _fill_blocks(self):
         """
