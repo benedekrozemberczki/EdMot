@@ -53,14 +53,14 @@ Training a model is handled by the `src/main.py` script which provides the follo
 ```
 ### Examples
 The following commands learn an EdMot Clustering.
-```
-python src/main.py
+```sh
+$ python src/main.py
 ```
 <p align="center">
 <img style="float: center;" src="edmot.gif">
 </p>
 
 Increasing the motif graph component number.
-```
-python src/main.py --components 2
+```sh
+$ python src/main.py --components 2
 ```
