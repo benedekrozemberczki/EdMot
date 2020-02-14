@@ -3,6 +3,7 @@ EdMot
 ![GitHub stars](https://img.shields.io/github/stars/benedekrozemberczki/EdMot.svg?style=plastic)
 ![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/EdMot.svg?color=blue&style=plastic)
 ![License](https://img.shields.io/github/license/benedekrozemberczki/EdMot.svg?color=blue&style=plastic)
+[![Arxiv](https://img.shields.io/badge/ArXiv-1906.04560-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/1906.04560)
 ============================================
 A NetworkX implementation of "EdMot: An Edge Enhancement Approach for Motif-aware Community Detection" (KDD 2019).
 <p align="center">
