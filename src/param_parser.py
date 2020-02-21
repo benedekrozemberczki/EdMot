@@ -21,12 +21,12 @@ def parameter_parser():
 
     parser.add_argument("--components",
                         type=int,
-                        default=1,
-	                help="Number of components. Default is 1.")
+                        default=2,
+	                help="Number of components. Default is 2.")
 
     parser.add_argument("--cutoff",
                         type=int,
-                        default=2,
-	                help="Minimal overlap cutoff. Default is 2.")
+                        default=50,
+	                help="Minimal overlap cutoff. Default is 50.")
 
     return parser.parse_args()
