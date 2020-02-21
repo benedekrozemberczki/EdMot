@@ -55,7 +55,7 @@ class EdMot(object):
         print("Adding edge blocks.\n")
         new_edges = [(n_1, n_2) for nodes in tqdm(self.blocks) for n_1 in nodes for n_2 in nodes]
         new_graph = nx.from_edgelist(new_edges)
-        self.graph = nx.disjoint_union(self.graph, new_graph)
+        self.graph = nx.union(self.graph, new_graph)
 
     def fit(self):
         """
