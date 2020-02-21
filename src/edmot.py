@@ -53,9 +53,8 @@ class EdMot(object):
         Filling the dense blocks of the adjacency matrix.
         """
         print("Adding edge blocks.\n")
-        new_edges = [(n_1, n_2) for nodes in tqdm(self.blocks) for n_1 in nodes for n_2 in nodes]
-        new_graph = nx.from_edgelist(new_edges)
-        self.graph = nx.union(self.graph, new_graph)
+        new_edges = [(n_1, n_2) for nodes in self.blocks for n_1 in nodes for n_2 in nodes if n_1!= n_2]
+        self.graph.add_edges_from(new_edges)
 
     def fit(self):
         """
