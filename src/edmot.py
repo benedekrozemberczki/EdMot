@@ -45,7 +45,8 @@ class EdMot(object):
         components = [c for c in nx.connected_components(self.motif_graph)]
         components = [[len(c), c] for c in components]
         components.sort(key=lambda x: x[0], reverse=True)
-        important_components = [components[comp][1] for comp in range(self.component_count)]
+        important_components = [components[comp][1] for comp
+                                in range(self.component_count if len(components)>=self.component_count else len(components))]
         self.blocks = [list(graph) for graph in important_components]
 
     def _fill_blocks(self):
