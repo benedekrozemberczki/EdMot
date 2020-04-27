@@ -1,7 +1,7 @@
 EdMot
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/edmot-an-edge-enhancement-approach-for-motif/community-detection-on-cora)](https://paperswithcode.com/sota/community-detection-on-cora?p=edmot-an-edge-enhancement-approach-for-motif)
 ![License](https://img.shields.io/github/license/benedekrozemberczki/EdMot.svg?color=blue&style=plastic)
-[![Arxiv](https://img.shields.io/badge/ArXiv-1906.04560-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/1906.04560)
+[![Arxiv](https://img.shields.io/badge/ArXiv-1906.04560-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/1906.04560) ![Astro](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fastronomer.ullaakut.eu%2Fshields%3Fowner%3Dbenedekrozemberczki%26name%3DEdMot)
 ============================================
 A NetworkX implementation of "EdMot: An Edge Enhancement Approach for Motif-aware Community Detection" (KDD 2019).
 <p align="center">
