@@ -1,7 +1,7 @@
 EdMot
 ============================================
 ![License](https://img.shields.io/github/license/benedekrozemberczki/EdMot.svg?color=blue&style=plastic)
-[![Arxiv](https://img.shields.io/badge/ArXiv-1906.04560-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/1906.04560) [![codebeat badge](https://codebeat.co/badges/70ecf9b1-226c-487a-bbc7-9e6eedbf7e22)](https://codebeat.co/projects/github-com-benedekrozemberczki-edmot-master)
+[![Arxiv](https://img.shields.io/badge/ArXiv-1906.04560-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/1906.04560) [![codebeat badge](https://codebeat.co/badges/70ecf9b1-226c-487a-bbc7-9e6eedbf7e22)](https://codebeat.co/projects/github-com-benedekrozemberczki-edmot-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/EdMot.svg)](https://github.com/benedekrozemberczki/EdMot/archive/master.zip)
 
 A NetworkX implementation of "EdMot: An Edge Enhancement Approach for Motif-aware Community Detection" (KDD 2019).
 <p align="center">
