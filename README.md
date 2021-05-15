@@ -67,3 +67,5 @@ $ python src/main.py --components 2
 **License**
 
 - [GNU License](https://github.com/benedekrozemberczki/EdMot/blob/master/LICENSE)
+
+--------------------------------------------------------------------------------
