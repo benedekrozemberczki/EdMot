@@ -8,7 +8,7 @@ A **NetworkX** implementation of *"EdMot: An Edge Enhancement Approach for Motif
 </p>
 
 
--------------------------------------------
+-----------------------------------------
 
 ### Abstract
 <p align="justify">
